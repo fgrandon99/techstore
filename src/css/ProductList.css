@@ -64,3 +64,21 @@
 .product-boton:hover {
   background-color: #339af0;
 }
+
+.contenido-principal {
+  display: flex;
+  gap: 20px;
+  padding: 0 30px 30px;
+  align-items: flex-start;
+}
+
+.contenido-principal .product-list {
+  flex: 3;
+  padding: 0;
+}
+
+.contenido-principal .sidebar {
+  flex: 1;
+  min-width: 200px;
+}
+

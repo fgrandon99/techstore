@@ -1,0 +1,34 @@
+.sidebar {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  height: fit-content;
+}
+
+.sidebar h3 {
+  margin-bottom: 15px;
+  color: #1a1a2e;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #444;
+}
+
+.sidebar li:last-child {
+  border-bottom: none;
+}
+
+.sidebar-icono {
+  font-size: 1.2rem;
+}
