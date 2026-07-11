@@ -1,0 +1,66 @@
+.product-list {
+  padding: 30px;
+}
+
+.product-list h2 {
+  margin-bottom: 20px;
+  color: #1a1a2e;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  transition: box-shadow 0.2s ease;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+  min-height: 45px;
+}
+
+.product-precio {
+  font-weight: bold;
+  color: #1a1a2e;
+  font-size: 1.1rem;
+}
+
+.product-valoracion {
+  color: #ffb400;
+  margin: 5px 0 10px;
+}
+
+.product-boton {
+  width: 100%;
+  background-color: #4dabf7;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.product-boton:hover {
+  background-color: #339af0;
+}
