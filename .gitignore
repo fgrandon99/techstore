@@ -22,3 +22,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+node_modules
+dist
+.env
+
+# Backend
+techstore-server/node_modules
+techstore-server/.env

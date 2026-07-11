@@ -1,0 +1,58 @@
+[
+  {
+    "nombre": "Notebook Gamer ASUS ROG Strix G16",
+    "precio": 1299990,
+    "imagen": "https://placehold.co/300x200?text=Notebook",
+    "valoracion": 5,
+    "categoria": "Notebooks"
+  },
+  {
+    "nombre": "iPhone 15 Pro Max 256GB",
+    "precio": 1219990,
+    "imagen": "https://placehold.co/300x200?text=iPhone",
+    "valoracion": 4,
+    "categoria": "Celulares"
+  },
+  {
+    "nombre": "Monitor LG UltraGear 27\" 165Hz",
+    "precio": 349990,
+    "imagen": "https://placehold.co/300x200?text=Monitor",
+    "valoracion": 4,
+    "categoria": "Monitores"
+  },
+  {
+    "nombre": "Mouse Gamer Logitech G502 HERO",
+    "precio": 49990,
+    "imagen": "https://placehold.co/300x200?text=Mouse",
+    "valoracion": 5,
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Teclado Mecánico RGB",
+    "precio": 59990,
+    "imagen": "https://placehold.co/300x200?text=Teclado",
+    "valoracion": 4,
+    "categoria": "Accesorios"
+  },
+  {
+    "nombre": "Audífonos Inalámbricos",
+    "precio": 79990,
+    "imagen": "https://placehold.co/300x200?text=Audifonos",
+    "valoracion": 5,
+    "categoria": "Audio"
+  },
+  {
+    "nombre": "SSD 1TB NVMe",
+    "precio": 69990,
+    "imagen": "https://placehold.co/300x200?text=SSD",
+    "valoracion": 5,
+    "categoria": "Componentes"
+  },
+  {
+    "nombre": "Cámara Web Full HD",
+    "precio": 39990,
+    "imagen": "https://placehold.co/300x200?text=Camara",
+    "valoracion": 4,
+    "categoria": "Accesorios"
+  }
+]
