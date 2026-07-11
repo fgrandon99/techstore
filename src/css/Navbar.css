@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a2e;
+  padding: 15px 30px;
+}
+
+.navbar-lista {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-lista li {
+  color: white;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.navbar-lista li:hover {
+  color: #4dabf7;
+}
+
+.navbar-lista li.activo {
+  color: #4dabf7;
+  font-weight: bold;
+}
+
+.navbar-carrito {
+  color: white;
+  font-weight: bold;
+}
