@@ -42,3 +42,20 @@
   max-width: 100%;
   border-radius: 10px;
 }
+
+
+@media (max-width: 768px) {
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .banner-texto h1 {
+    font-size: 1.6rem;
+  }
+
+  .banner-imagen img {
+    max-width: 100%;
+  }
+}

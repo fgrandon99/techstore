@@ -33,3 +33,16 @@
   color: white;
   font-weight: bold;
 }
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+
+  .navbar-lista {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}

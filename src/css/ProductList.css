@@ -82,3 +82,22 @@
   min-width: 200px;
 }
 
+@media (max-width: 768px) {
+  .contenido-principal {
+    flex-direction: column;
+  }
+
+  .contenido-principal .sidebar {
+    width: 100%;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+}
+
+@media (max-width: 400px) {
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

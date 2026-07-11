@@ -66,3 +66,18 @@
   text-decoration: none;
   font-size: 1.1rem;
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .header-buscador {
+    max-width: 100%;
+  }
+
+  .header-acciones {
+    justify-content: space-between;
+  }
+}
