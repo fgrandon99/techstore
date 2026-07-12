@@ -1,9 +1,10 @@
 function Header({ cartCount, onSearch }) {
   return (
     <header className="header">
-      <div className="header-logo">
-        <span className="header-logo-icono">🛍️</span> TechStore
-      </div>
+        <div className="header-logo">
+          <img src="/icons/logo.jpg" alt="TechStore" className="header-logo-img" />
+          TechStore
+        </div>
 
       <input
         type="text"
@@ -15,11 +16,10 @@ function Header({ cartCount, onSearch }) {
       <div className="header-acciones">
         <button className="btn-login">Iniciar Sesión</button>
         <button className="btn-registro">Registrarse</button>
-        <div className="header-carrito">🛒 <span>{cartCount}</span></div>
         <div className="header-redes">
-          <a href="#">📘</a>
-          <a href="#">📷</a>
-          <a href="#">🐦</a>
+          <a href="#"><img src="/icons/face.jpg" alt="Facebook" /></a>
+          <a href="#"><img src="/icons/insta.jpg" alt="Instagram" /></a>
+          <a href="#"><img src="/icons/tw.jpg" alt="Twitter" /></a>
         </div>
       </div>
     </header>

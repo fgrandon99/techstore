@@ -1,9 +1,9 @@
 function Sidebar() {
   const beneficios = [
-    { icono: '🚚', texto: 'Envíos rápidos' },
-    { icono: '🔒', texto: 'Pago seguro' },
-    { icono: '🛡️', texto: 'Garantía extendida' },
-    { icono: '🎧', texto: 'Soporte 24/7' },
+    { icono: '/icons/envio.jpg', texto: 'Envíos rápidos' },
+    { icono: '/icons/pago.jpg', texto: 'Pago seguro' },
+    { icono: '/icons/garantia.jpg', texto: 'Garantía extendida' },
+    { icono: '/icons/soporte.jpg', texto: 'Soporte 24/7' },
   ];
 
   return (
@@ -12,7 +12,7 @@ function Sidebar() {
       <ul>
         {beneficios.map((beneficio) => (
           <li key={beneficio.texto}>
-            <span className="sidebar-icono">{beneficio.icono}</span>
+            <img src={beneficio.icono} alt={beneficio.texto} className="sidebar-icono" />
             {beneficio.texto}
           </li>
         ))}

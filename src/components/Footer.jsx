@@ -1,9 +1,9 @@
 function Footer() {
   const infoCompra = [
-    { icono: '💳', texto: 'Hasta 12 cuotas sin interés' },
-    { icono: '🚚', texto: 'Despachos en 24 a 48 horas' },
-    { icono: '🔄', texto: 'Devoluciones fáciles' },
-    { icono: '✅', texto: 'Calidad garantizada' },
+    { icono: '/icons/cuota.jpg', texto: 'Hasta 12 cuotas sin interés' },
+    { icono: '/icons/envio.jpg', texto: 'Despachos en 24 a 48 horas' },
+    { icono: '/icons/devoluciones.jpg', texto: 'Devoluciones fáciles' },
+    { icono: '/icons/calidad.jpg', texto: 'Calidad garantizada' },
   ];
 
   return (
@@ -11,7 +11,8 @@ function Footer() {
       <div className="barra-inferior">
         {infoCompra.map((item) => (
           <div key={item.texto} className="barra-inferior-item">
-            <span>{item.icono}</span> {item.texto}
+            <img src={item.icono} alt={item.texto} className="barra-inferior-icono" />
+            {item.texto}
           </div>
         ))}
       </div>
@@ -19,9 +20,9 @@ function Footer() {
       <footer className="footer">
         <div className="footer-contenido">
           <h3>TechStore Chile</h3>
-          <p>📍 Av. Siempre Viva 123, Concepción, Chile</p>
-          <p>✉️ contacto@techstore.cl</p>
-          <p>📞 +56 9 1234 5678</p>
+          <p>Av. Ricardo Vicuña 363, Los Angeles, Chile</p>
+          <p>contacto@techstore.cl</p>
+          <p>+56 9 1234 5678</p>
           <div className="footer-redes">
             <a href="#">Facebook</a>
             <a href="#">Instagram</a>

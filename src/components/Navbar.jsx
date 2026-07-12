@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-function Navbar({ cartCount }) {
+function Navbar({ cartCount, onToggleCarrito }) {
   const [menuActivo, setMenuActivo] = useState('Inicio');
 
   const opciones = ['Inicio', 'Productos', 'Ofertas', 'Nosotros', 'Contacto'];
@@ -18,7 +18,9 @@ function Navbar({ cartCount }) {
           </li>
         ))}
       </ul>
-      <div className="navbar-carrito">🛒 Carrito ({cartCount})</div>
+      <div className="navbar-carrito" onClick={onToggleCarrito}>
+        🛒 Carrito ({cartCount})
+      </div>
     </nav>
   );
 }
